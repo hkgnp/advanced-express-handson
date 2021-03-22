@@ -4,6 +4,7 @@ const wax = require("wax-on");
 require("dotenv").config();
 const cors = require('cors');
 const landingRoutes = require('./routes/landing')
+const corporateRoutes = require('./routes/corporate')
 
 // create an instance of express app
 let app = express();
@@ -27,6 +28,7 @@ app.use(
 
 async function main() {
     app.use('/', landingRoutes)
+    app.use('/company', corporateRoutes)
 }
 
 main();
