@@ -1,0 +1,16 @@
+{
+  "name": "advanced-express-handson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hkgnp/advanced-express-handson.git",
+  "author": "hkgnp <ben@pngs.cc>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mysql2": "^2.2.5",
+    "wax-on": "^1.2.2"
+  }
+}
